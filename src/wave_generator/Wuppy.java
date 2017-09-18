@@ -12,7 +12,7 @@ public class Wuppy
 	// names (so don't rename them!) or else the the project won't compile:
 	int m_XPos;
 	int m_YPos;
-	int m_YHeadings=1;
+	int m_YHeadings = 1;
 //////////////////YOUR CODE - START ////////////////////////
 
 	public Wuppy(int m_XPos, int m_YPos) {
