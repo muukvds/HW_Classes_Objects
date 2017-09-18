@@ -38,7 +38,7 @@ public class AiiCanvas extends JComponent
 		
 		try 
 		{
-			File input = new File("resources\\wuppy_small.png");
+			File input = new File("resources/wuppy_small.png");
 			image = ImageIO.read(input);
 		} 
 		catch (IOException ie) 
