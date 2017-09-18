@@ -49,17 +49,28 @@ public class WuppyWaver
 	 */
 	private void onInitialize()
 	{
+	    createAray();
 		// Use 'm_WuppyAmount' for the amount of wuppies. In aiiInitialize, this variable gets the value 10;
-		
+        for(int i=0;i < m_WuppyAmount;i++)
+        {
+            m_Wuppies[i] = new Wuppy(i*50+50,500);
+        }
 	}
-	
+
+	private void createAray()
+    {
+        if (m_WuppyAmount > 0)
+        {
+            m_Wuppies = new Wuppy[m_WuppyAmount];
+        }
+    }
 	/**
 	 * This method is called about 60 times per second. 
 	 * Here we change the position of our wuppies so they seem to move:
 	 */
 	private void performStep()
 	{
-		
+
 	}
 	
 /////////////////// YOUR CODE - END ////////////////////////
