@@ -13,8 +13,12 @@ public class Wuppy
 	int m_XPos;
 	int m_YPos;
 //////////////////YOUR CODE - START ////////////////////////
-	
-	
-	
+
+	public Wuppy(int m_XPos, int m_YPos) {
+		this.m_XPos = m_XPos;
+		this.m_YPos = m_YPos;
+	}
+
+
 /////////////////// YOUR CODE - END ////////////////////////	
 }
